@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.fsu.cs.cen4021.edu.fsu.cs.cen4021.armory;
+package edu.fsu.cs.cen4021.armory;
 
 /**
  * @author Javier

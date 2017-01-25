@@ -1,5 +1,5 @@
 
-package edu.fsu.cs.cen4021.edu.fsu.cs.cen4021.armory;
+package edu.fsu.cs.cen4021.armory;
 
 /**
  * @author Javier

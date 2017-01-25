@@ -1,7 +1,7 @@
 package edu.fsu.cs.cen4021;
 
-import edu.fsu.cs.cen4021.edu.fsu.cs.cen4021.armory.Weapon;
-import edu.fsu.cs.cen4021.edu.fsu.cs.cen4021.armory.WeaponFactory;
+import edu.fsu.cs.cen4021.armory.Weapon;
+import edu.fsu.cs.cen4021.armory.WeaponFactory;
 
 /**
  * @author Javier
