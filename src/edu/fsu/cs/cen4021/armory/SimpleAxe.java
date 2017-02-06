@@ -3,11 +3,9 @@ package edu.fsu.cs.cen4021.armory;
 /**
  * Created by zink on 2/3/17.
  */
-public class SimpleAxe {
+class SimpleAxe extends BasicWeapon implements Weapon {
 
-    SimpleAxe() {
-        super(60);
-    }
+    SimpleAxe() { super(60); }
 
     @Override
     public int hit() {

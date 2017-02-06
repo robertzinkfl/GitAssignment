@@ -3,7 +3,7 @@ package edu.fsu.cs.cen4021.armory;
 /**
  * Created by zink on 2/3/17.
  */
-public class SimpleMagicStaff {
+class SimpleMagicStaff extends BasicWeapon implements Weapon {
 
     SimpleMagicStaff() {
         super(80);
