@@ -5,12 +5,14 @@
  */
 package edu.fsu.cs.cen4021.armory;
 
+import java.io.FileNotFoundException;
+
 /**
  * @author Javier
  */
 public class WeaponFactory {
 
-    public static Weapon getWeapon(String type) {
+    public static Weapon getWeapon(String type) throws FileNotFoundException {
         switch (type) {
             case "sword":
                 return new Sword();
@@ -20,6 +22,8 @@ public class WeaponFactory {
                 return new SimpleMagicStaff();
             case "simplearrow":
                 return new SimpleArrow();
+            case "chosenoneaxe":
+                return new TheChosenOneAxe();
             default:
                 throw new IllegalArgumentException("Invalid type");
         }
