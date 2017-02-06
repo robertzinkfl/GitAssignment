@@ -38,5 +38,9 @@ public class RoleGame {
         System.out.println("The Ancient Magic Staff has " + specialstaff.hit() + " of damage.");
         System.out.println("The Ancient Magic Staff was able to do " + specialstaff.hit(armor) + " of damage to an armor with " + armor + " points.\n");
 
+        Weapon specialarrow = WeaponFactory.getWeapon("webritualarrow");
+        System.out.println("The Web Ritual Arrow has " + specialarrow.hit() + " of damage.");
+        System.out.println("The Ancient Magic Staff was able to do " + specialarrow.hit(armor) + " of damage to an armor with " + armor + " points.\n");
+
     }
 }
