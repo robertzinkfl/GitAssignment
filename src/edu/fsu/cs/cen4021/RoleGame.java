@@ -10,7 +10,7 @@ import java.io.FileNotFoundException;
  */
 public class RoleGame {
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws FileNotFoundException, java.io.IOException, java.lang.ClassNotFoundException {
         Weapon sword = WeaponFactory.getWeapon("sword");
         System.out.println("Sword has " + sword.hit() + " of damage.");
         int armor = 20;
@@ -33,6 +33,10 @@ public class RoleGame {
         Weapon specialaxe = WeaponFactory.getWeapon("chosenoneaxe");
         System.out.println("The Chosen One Axe has " + specialaxe.hit() + " of damage.");
         System.out.println("The Chosen One Axe was able to do " + specialaxe.hit(armor) + " of damage to an armor with " + armor + " points.\n");
+
+        Weapon specialstaff = WeaponFactory.getWeapon("ancientmagicstaff");
+        System.out.println("The Ancient Magic Staff has " + specialstaff.hit() + " of damage.");
+        System.out.println("The Ancient Magic Staff was able to do " + specialstaff.hit(armor) + " of damage to an armor with " + armor + " points.\n");
 
     }
 }

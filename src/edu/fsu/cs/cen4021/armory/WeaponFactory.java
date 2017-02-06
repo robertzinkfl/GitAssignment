@@ -12,7 +12,7 @@ import java.io.FileNotFoundException;
  */
 public class WeaponFactory {
 
-    public static Weapon getWeapon(String type) throws FileNotFoundException {
+    public static Weapon getWeapon(String type) throws FileNotFoundException, ClassNotFoundException, java.io.IOException {
         switch (type) {
             case "sword":
                 return new Sword();
@@ -24,6 +24,8 @@ public class WeaponFactory {
                 return new SimpleArrow();
             case "chosenoneaxe":
                 return new TheChosenOneAxe();
+            case "ancientmagicstaff":
+                return new AncientMagicStaff();
             default:
                 throw new IllegalArgumentException("Invalid type");
         }
